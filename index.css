@@ -1,0 +1,76 @@
+html {
+  background-color: #fbe3d1;
+}
+
+body {
+  padding: 20px 3%;
+  text-align: center;
+  background-image: url("bgimage.png");
+  background-repeat: repeat;
+  size: 25px;
+}
+#list {
+  text-align: left;
+  margin: 20px 0px;
+}
+
+li {
+  padding: 5px 0px;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: bold;
+  color: #6a0000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 119, 100, 0.3);
+  color: rgb(0, 0, 5);
+}
+
+button {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 119, 100, 0.3);
+  color: rgb(0, 0, 5);
+}
+
+.hero {
+  background-color: #fbe3d1;
+}
+
+.hero-text {
+  text-align: center;
+  margin: 15px auto;
+  max-width: 70%;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.hero-image {
+  width: 600px;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff");
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff");
+}
