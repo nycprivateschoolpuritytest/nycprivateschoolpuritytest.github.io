@@ -9,6 +9,11 @@ body {
   background-repeat: repeat;
   size: 25px;
 }
+
+input {
+  font-size: 14px;
+}
+
 #list {
   text-align: left;
   margin: 20px 0px;
